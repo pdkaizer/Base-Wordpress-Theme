@@ -1,0 +1,110 @@
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Raleway:400,300);
+
+// Typography
+$base-font-family: 'Droid Sans', sans-serif;
+$heading-font-family: 'Raleway', sans-serif;
+$basefontsize: 16;
+
+$bodycolor 						: rgb(255,255,255);
+$textcolor 						: rgb(71,63,63);
+
+// Font Sizes
+$base-font-size: 1em;
+$baselineheight: 1.5em;
+$gutterwidth: 24px;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Color
+
+
+// Define your design’s palette by choosing three main colours
+$primarycolor 					: rgb(146,154,0);
+$secondarycolor 				: rgb(164,50,21);
+$tertiarycolor 					: rgb(41,47,54);
+
+
+// Additional Colors
+$red: rgb(193,39,44);
+$gold: #ecb731;
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$black: #000;
+$white: #fff;
+
+// Now set a neutral colour for borders etc.
+$neutralcolor 					: rgb(71,63,63);
+$midneutralcolor 				: darken($neutralcolor,25%);
+$darkneutralcolor 				: darken($neutralcolor,50%);
+$lightneutralcolor 				: lighten($neutralcolor,25%);
+$lighterneutralcolor 			: lighten($neutralcolor,50%);
+$lightestneutralcolor 			: lighten($neutralcolor,70%);
+
+// Sometimes you may want $black and $white to be ‘almost black’ and ’off-white’
+$black 							: rgb(0,0,0);
+$white 							: rgb(255,255,255);
+
+// Choose a colour for your hyperlinks. Often this will be the $primarycolor 
+$linkcolor 		    			: $primarycolor;
+$linkcolorhover 				: darken($linkcolor, 10);
+$linkcolorvisited   			: darken($linkcolorhover, 10);
+$linkcolorfocus 				: darken($linkcolorvisited, 10);
+
+// Now define another set of colours. These will be used to style alerts and buttons
+$alertcolor 					: rgb(218,79,73);
+$errorcolor 					: rgb(176,20,0);
+$infocolor 						: rgb(216,220,162);
+$inversecolor 					: rgb(65,65,65);
+$successcolor 					: rgb(188,212,222);
+$warningcolor 					: $errorcolor;
+
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $red;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+
+// Texture
+// Next set variables for your design’s borders. 
+$bordercolor    				: $lighterneutralcolor;
+$borderstyle					: solid;
+$borderwidth 					: 1px;
+$borderradius 					: 4px;
+
+// NAVIGATION Set any SASS vaiables for your navigation here
+
+
+
+// MISC 
+
+// Set a default duration for CSS transitions
+$transitionduration				: .25s;
+
+
