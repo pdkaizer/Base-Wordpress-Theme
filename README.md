@@ -5,10 +5,14 @@ Based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc., [GP
 Getting Started
 ---------------
 
-Download `WP Base` from GitHub. The first thing you want to do is copy the `WP Base` directory and change the name to something else (like, say, `my-awesome-theme`), and then you'll need to do a five-step find and replace on the name in all the templates.
+Download or clone 'WP Base' from GitHub. The first thing you want to do is copy the `WP Base` directory and change the name to something else (like, say, 'my-awesome-theme'), and then you'll need to do a five-step find and replace on the name in all the templates.
 
-Search for: 'WP_Base' and replace with: 'my-awesome-theme'
-Search for: _s_ and replace with: my-awesome-theme_
-Search for:  _s and replace with:  Megatherium_is_Awesome
-Search for: _s- and replace with: megatherium-is-awesome-
+* Search for: 'WP_Base' and replace with: 'my-awesome-theme'
+* Search for: WP_Base_ and replace with: my-awesome-theme_
+* Search for:  WP_Base and replace with:  my-awesome-theme
+* Search for: WP_Base- and replace with: my-awesome-theme-
+
+In terminal cd into your theme directory and `npm install`
+
+
 
